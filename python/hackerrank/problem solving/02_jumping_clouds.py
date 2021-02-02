@@ -56,7 +56,7 @@ def jumpingOnClouds(c):
     # prune list from index 0 till list has single element left [i.e. reached top]
     # number of elements removed depends on height of jump  made : 1 or 2
     # increase jmup count for each jump
-    jumps, curr_cloud, next_cloud = 0, 0, 0
+    jumps= 0
     while len(c) > 1:
         try:
             if c[2] == 0:
